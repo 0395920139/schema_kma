@@ -1,0 +1,294 @@
+<table bordercolor="RosyBrown" cellpadding="0" cellspacing="0" id="gridRegistered" rules="all" width="100%">
+<tr align="center" class="DataGridFixedHeader">
+<td align="center" class="cssListHeader" height="20" width="4%"><font color="White"><b>STT</b></font></td><td align="center" class="cssListHeader" height="20" width="25%"><font color="White"><b>
+<label><b>Lớp học phần</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="9%"><font color="White"><b>
+<label><b>Học phần</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20"><font color="White"><b>
+<label><b>Thời gian</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="10%"><font color="White"><b>
+<label><b>Ðịa điểm</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="10%"><font color="White"><b>
+<label><b>Giảng viên</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="4%"><font color="White"><b>
+<label><b>Sĩ số</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="4%"><font color="White"><b>
+<label><b>Số ÐK</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="4%"><font color="White"><b>
+<label><b>Số TC</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="8%"><font color="White"><b>
+<label><b>
+</b></label>
+</b></font></td><td align="center" class="cssListHeader" height="20" width="7%"><font color="White"><b>
+<label><b>Ghi chú</b></label>
+</b></font></td>
+</tr><tr class="cssListItem">
+<td align="center">1</td><td><b>
+																	Cấu trúc dữ liệu và giải thuật-1-20 (A15C308)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_0">ATCTKM1</span>
+</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 07/09/2020 đến 13/09/2020: <b>(2)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 14/09/2020 đến 20/09/2020: <b>(3)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (LT)</b><br/>Từ 21/09/2020 đến 18/10/2020: <b>(4)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>Từ 19/10/2020 đến 25/10/2020: <b>(5)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	65
+																</td><td align="center">
+																	53
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">2</td><td><b>
+																	Công nghệ phần mềm-1-20 (C303)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_1">CTCTKM25</span>
+</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>Từ 23/11/2020 đến 29/11/2020: <b>(3)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>Từ 30/11/2020 đến 27/12/2020: <b>(4)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	60
+																</td><td align="center">
+																	53
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListItem">
+<td align="center">3</td><td><b>
+																	Cơ sở lý thuyết truyền tin-1-20 (A15C3D208)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_2">ATDVDV1</span>
+</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (LT)</b><br/>Từ 07/09/2020 đến 13/09/2020: <b>(2)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (LT)</b><br/>Từ 14/09/2020 đến 20/09/2020: <b>(3)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 21/09/2020 đến 27/09/2020: <b>(4)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 28/09/2020 đến 04/10/2020: <b>(5)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 05/10/2020 đến 11/10/2020: <b>(6)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 12/10/2020 đến 18/10/2020: <b>(7)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 19/10/2020 đến 25/10/2020: <b>(8)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	Dương Tuấn Đạt
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	45
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">4</td><td><b>
+																	Giáo dục thể chất 5-1-20 (A15C3D203-võ thuật)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_3">ATQGTC5</span>
+</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br/>   <b>Thứ 5 tiết 1,2,3 (LT)</b><br/>Từ 07/09/2020 đến 18/10/2020: <b>(2)</b><br/>   <b>Thứ 5 tiết 1,2,3 (LT)</b><br/>Từ 19/10/2020 đến 25/10/2020: <b>(3)</b><br/>   <b>Thứ 5 tiết 1,2,3 (LT)</b><br/>Từ 26/10/2020 đến 08/11/2020: <b>(4)</b><br/>   <b>Thứ 5 tiết 1,2,3 (LT)</b><br/>
+</td><td>
+																	 San bai San
+																</td><td>
+																	Đỗ Văn Hiếu
+																</td><td align="center">
+																	60
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	1
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListItem">
+<td align="center">5</td><td><b>
+																	Hệ quản trị cơ sở dữ liệu-1-20 (A15C308)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_4">ATCTKM3</span>
+</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (LT)</b><br/>Từ 07/09/2020 đến 04/10/2020: <b>(2)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	65
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">6</td><td><b>
+																	Hệ quản trị cơ sở dữ liệu-1-20 (A15C308.2)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_5">ATCTKM3</span>
+</td><td>
+																	Từ 21/09/2020 đến 18/10/2020: <b>(1)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (TH)</b><br/>Từ 19/10/2020 đến 25/10/2020: <b>(2)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (TH)</b><br/>
+</td><td>
+<b>(1)</b><br/> 206_TA3(THCNTT) TA4<br/><b>(2)</b><br/> 203_TA4(THCNTT) TA4
+																</td><td>
+</td><td align="center">
+																	35
+																</td><td align="center">
+																	30
+																</td><td align="center">
+</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListItem">
+<td align="center">7</td><td><b>
+																	Kỹ thuật vi xử lý-1-20 (A15C308)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_6">ATDVKV2</span>
+</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (LT)</b><br/>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (LT)</b><br/>Từ 23/11/2020 đến 13/12/2020: <b>(3)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	65
+																</td><td align="center">
+																	41
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">8</td><td><b>
+																	Kỹ thuật vi xử lý-1-20 (A15C308.1)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_7">ATDVKV2</span>
+</td><td>
+																	Từ 14/12/2020 đến 27/12/2020: <b>(1)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (TH)</b><br/>Từ 28/12/2020 đến 03/01/2021: <b>(2)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (TH)</b><br/>
+</td><td>
+																	 304_TA4(THĐTVT) TA4
+																</td><td>
+</td><td align="center">
+																	35
+																</td><td align="center">
+																	38
+																</td><td align="center">
+</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListItem">
+<td align="center">9</td><td><b>
+																	Lập trình hướng đối tượng-1-20 (A15C3D208)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_8">ATCTKM5</span>
+</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (LT)</b><br/>Từ 07/09/2020 đến 04/10/2020: <b>(2)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	65
+																</td><td align="center">
+																	66
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">10</td><td><b>
+																	Lập trình hướng đối tượng-1-20 (A15C3D208.2)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_9">ATCTKM5</span>
+</td><td>
+																	Từ 05/10/2020 đến 18/10/2020: <b>(1)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (TH)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (TH)</b><br/>Từ 19/10/2020 đến 25/10/2020: <b>(2)</b><br/>   <b>Thứ 2 tiết 13,14,15,16 (TH)</b><br/>
+</td><td>
+<b>(1)</b><br/> 204_TA4(THCNTT) TA4<br/><b>(2)</b><br/> 206_TA3(THCNTT) TA4
+																</td><td>
+</td><td align="center">
+																	35
+																</td><td align="center">
+																	32
+																</td><td align="center">
+</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListItem">
+<td align="center">11</td><td><b>
+																	Lý thuyết độ phức tạp tính toán-1-20 (C301)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_10">CTCBTT8</span>
+</td><td>
+																	Từ 02/11/2020 đến 08/11/2020: <b>(1)</b><br/>   <b>Thứ 6 tiết 1,2,3 (LT)</b><br/>Từ 09/11/2020 đến 15/11/2020: <b>(2)</b><br/>   <b>Thứ 6 tiết 1,2,3 (LT)</b><br/>Từ 16/11/2020 đến 22/11/2020: <b>(3)</b><br/>   <b>Thứ 5 tiết 1,2,3 (LT)</b><br/>Từ 30/11/2020 đến 06/12/2020: <b>(4)</b><br/>   <b>Thứ 5 tiết 4,5,6 (LT)</b><br/>   <b>Thứ 6 tiết 1,2,3 (LT)</b><br/>Từ 07/12/2020 đến 27/12/2020: <b>(5)</b><br/>   <b>Thứ 5 tiết 4,5,6 (LT)</b><br/>   <b>Thứ 6 tiết 1,2,3 (LT)</b><br/>Từ 28/12/2020 đến 03/01/2021: <b>(6)</b><br/>   <b>Thứ 2 tiết 4,5,6 (LT)</b><br/>
+</td><td>
+<b>(1)</b><br/> 102_TA2 TA2<br/><b>(2)</b><br/> 204-TA2 TA2<br/><b>(3)</b><br/> 103_TA2 TA1<br/><b>(4,5,6)</b><br/> 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	60
+																</td><td align="center">
+																	63
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">12</td><td><b>
+																	Phát triển phần mềm ứng dụng-1-20 (C301)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_11">CTCTKM12</span>
+</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br/>   <b>Thứ 3 tiết 4,5,6 (LT)</b><br/>   <b>Thứ 5 tiết 4,5,6 (LT)</b><br/>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br/>   <b>Thứ 3 tiết 4,5,6 (LT)</b><br/>Từ 23/11/2020 đến 29/11/2020: <b>(3)</b><br/>   <b>Thứ 3 tiết 4,5,6 (LT)</b><br/>   <b>Thứ 5 tiết 4,5,6 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	60
+																</td><td align="center">
+																	66
+																</td><td align="center">
+																	2
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListItem">
+<td align="center">13</td><td><b>
+																	Phát triển phần mềm ứng dụng-1-20 (C301.1)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_12">CTCTKM12</span>
+</td><td>
+																	Từ 30/11/2020 đến 20/12/2020: <b>(1)</b><br/>   <b>Thứ 2 tiết 4,5,6 (TH)</b><br/>   <b>Thứ 4 tiết 4,5,6 (TH)</b><br/>Từ 21/12/2020 đến 27/12/2020: <b>(2)</b><br/>   <b>Thứ 3 tiết 1,2,3 (TH)</b><br/>
+</td><td>
+<b>(1)</b><br/> 201_TA4(THCNTT) TA4<br/><b>(2)</b><br/> 202_TA4(THCNTT) TA4
+																</td><td>
+</td><td align="center">
+																	30
+																</td><td align="center">
+																	35
+																</td><td align="center">
+</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr class="cssListAlternativeItem">
+<td align="center">14</td><td><b>
+																	Tiếng Anh 3-1-20 (A15C3D208)
+																</b></td><td>
+<span id="gridRegistered_lblCourseCode_13">ATCBNN6</span>
+</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (LT)</b><br/>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br/>   <b>Thứ 3 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>Từ 23/11/2020 đến 27/12/2020: <b>(3)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 6 tiết 13,14,15,16 (LT)</b><br/>Từ 28/12/2020 đến 03/01/2021: <b>(4)</b><br/>   <b>Thứ 4 tiết 13,14,15,16 (LT)</b><br/>   <b>Thứ 5 tiết 13,14,15,16 (LT)</b><br/>
+</td><td>
+																	 203_TA2 TA2
+																</td><td>
+</td><td align="center">
+																	45
+																</td><td align="center">
+																	49
+																</td><td align="center">
+																	4
+																</td><td align="right">
+</td><td align="right">
+</td>
+</tr><tr align="center">
+<td> </td><td align="center">
+<b>Tổng</b>
+</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td align="center"><b>21</b></td><td align="right"><b>0</b></td><td align="right"><b> </b></td>
+</tr>
+</table>

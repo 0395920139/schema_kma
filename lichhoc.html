@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>.: Thời khóa biểu sinh viên :.</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<meta content="progid:DXImageTransform.Microsoft.Fade(duration=.5)" http-equiv="Page-Exit">
+		<LINK rel="stylesheet" type="text/css" href="../../Includes/Default.css">
+		<script type="text/javascript" src="../../Includes/util.js"></script>
+	</HEAD>
+	<body leftMargin="5" rightMargin="5" bgProperties="fixed" topMargin="0">
+		<form method="post" action="./StudentTimeTable.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A0622FE5" />
+			
+<style>
+	.notify { BORDER-BOTTOM: #336699 1px solid; POSITION: fixed; MIN-WIDTH: 300px; BORDER-LEFT: #336699 1px solid; PADDING-BOTTOM: 8px; BACKGROUND-COLOR: #ffd700; MIN-HEIGHT: 100px; PADDING-LEFT: 8px; BOTTOM: 10px; PADDING-RIGHT: 8px; COLOR: red; BORDER-TOP: #336699 1px solid; RIGHT: 10px; BORDER-RIGHT: #336699 1px solid; PADDING-TOP: 8px; z-index:99999 }
+	.notifimg { POSITION: fixed; BOTTOM: 10px; RIGHT: 10px; z-index:99999 }
+</style>
+
+<div id="headerright">
+	<div id="header">
+		<div style="POSITION: absolute;FONT-FAMILY: -webkit-body;COLOR: white;FONT-SIZE: 18px;TOP: 32px;FONT-WEIGHT: bold;LEFT: 8px">
+			<span id="PageHeader1_lblWebtitle">HỌC VIỆN KỸ THUẬT MẬT MÃ</span></div>
+		<span id="navbar"><a href="/CMCSoft.IU.Web.Info/Home.aspx" >Trang chủ</a> |
+			<a id="PageHeader1_SignOut_ibnLogout" href="javascript:__doPostBack(&#39;PageHeader1$SignOut$ibnLogout&#39;,&#39;&#39;)"><font color="White">Thoát</font></a>
+
+			| <a href="./support/default.aspx" target="_blank">Hỏi đáp</a> | <a href="/CMCSoft.IU.Web.Info/WebHelp/NewProject1.htm" target="_blank">
+				Trợ giúp</a>
+			<select name="PageHeader1$drpNgonNgu" id="PageHeader1_drpNgonNgu" style="Z-INDEX: 0">
+	<option selected="selected" value="E43296C6F24C4410A894F46D57D2D3AB">VN</option>
+	<option value="ABAF46BD671247C5B5B52885BB2F9C49">EN</option>
+
+</select>
+		</span>
+		<DIV id="box_size"><!--
+			<a href="javascript:decreaseFontSize();">
+				<h4 id="decreaseFontSize"></h4>
+			</a><a href="javascript:increaseFontSize();">
+				<h4 id="increaseFontSize"></h4>
+			</a>
+		--><SPAN id="ur" style="FONT-SIZE: 14px; FONT-WEIGHT: bold"></SPAN></DIV>
+		<DIV id="box_user">
+			<DIV style="WIDTH: 5px; DISPLAY: none; FLOAT: left; HEIGHT: 40px; PADDING-TOP: 2px">
+				<img id="PageHeader1_imgUser" src="/CMCSoft.IU.Web.Info/Images/UserInfo.gif" border="0" style="DISPLAY: block; FLOAT: left" /></DIV>
+			<div id="PageHeader1_Panel1" style="TEXT-ALIGN: right; MARGIN-TOP: 2px">
+	
+				<P>
+					<span id="PageHeader1_lblUserFullName"><b><font color="Blue">Nguyễn Văn Minh(CT030237)</font></b></span>
+					<span id="PageHeader1_lblRoleTitle">Vai trò:</span>
+					<span id="PageHeader1_lblUserRole"><font color="Blue">Sinh viên</font></span>
+					
+					<a id="PageHeader1_lbNewmessage" href="javascript:__doPostBack(&#39;PageHeader1$lbNewmessage&#39;,&#39;&#39;)" style="FONT-SIZE: 10px"><font color="Blue">Hộp tin nhắn</font></a></P>
+			
+</div></DIV>
+		<DIV id="datetime" style="DISPLAY: none">[
+			<span id="PageHeader1_lblDatetime"><b>Datetime</b></span>]</DIV>
+		<DIV id="navigator">
+			<span id="PageHeader1_lblNavi">Đăng ký học <span style="font-size:10px">></span> <a href="/CMCSoft.IU.Web.Info/Reports/Form/StudentTimeTable.aspx">Xem kết quả ĐKH</a></span></DIV>
+	</div>
+</div>
+<input name="PageHeader1$hidisNotify" type="hidden" id="PageHeader1_hidisNotify" value="0" />
+<input name="PageHeader1$hidValueNotify" type="hidden" id="PageHeader1_hidValueNotify" value="." />
+<div class="notify" id="notify" style="DISPLAY:none">
+</div>
+<img class="notifimg" id="notifimg" src="new_icon.gif" style="DISPLAY:none">
+<script type="text/javascript">
+			checkNotify();
+			function checkNotify()
+			{
+				var isNotify = "0";
+				isNotify = document.getElementById("PageHeader1_hidisNotify").value;
+				if (isNotify=="1")
+				{						
+					try {
+						//viet ham kiem tra
+						if(document.getElementById("PageHeader1_hidValueNotify") != undefined)
+						{
+							var hidValue = document.getElementById("PageHeader1_hidValueNotify").value;
+							if (hidValue == null)
+							{
+								hidValue = "";
+							}				
+							document.getElementById("notify").style.display = "";
+							document.getElementById("notifimg").style.display = "";
+							document.getElementById("notify").innerHTML = hidValue;
+						}
+					}
+					catch(err) {
+						document.getElementById("demo").innerHTML = err.message;
+					}
+					
+				}
+			}
+</script>
+
+			<TABLE id="Table3" border="0" cellSpacing="0" cellPadding="0" width="100%">
+				<TR>
+					<TD height="100%" vAlign="top" rowSpan="2" width="90%">
+						<TABLE id="Table9" cellSpacing="0" cellPadding="0" width="100%" height="100%">
+							<TR>
+								<TD align="center">
+</TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+				<tr>
+					<TD><a id="GoHome1_ibnGoHome" href="javascript:__doPostBack(&#39;GoHome1$ibnGoHome&#39;,&#39;&#39;)"><font color="White">Trang chủ</font></a>
+</TD>
+					<TD><a id="Signout2_ibnLogout" href="javascript:__doPostBack(&#39;Signout2$ibnLogout&#39;,&#39;&#39;)"><font color="White">Thoát</font></a>
+</TD>
+				</tr>
+			</TABLE>
+			<TABLE id="Table6" border="0" cellSpacing="0" cellPadding="0" width="100%" height="90%">
+				<TR>
+					<TD height="100%" vAlign="top" width="170">
+
+<!-- Bootstrap 3.3.4
+    <link href="Includes/menu/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+    <!-- FontAwesome 4.3.0 -->
+    <link href="/CMCSoft.IU.Web.Info/Includes/menu/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="/CMCSoft.IU.Web.Info/Includes/menu/ionicons.min.css" rel="stylesheet" type="text/css" />    
+    <!-- Theme style -->
+    <link href="/CMCSoft.IU.Web.Info/Includes/menu/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins 
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="/CMCSoft.IU.Web.Info/Includes/menu/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+      
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- jQuery 2.1.4 -->
+    <script src="/CMCSoft.IU.Web.Info/Includes/menu/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- jQuery UI 1.11.2 -->
+    <script src="/CMCSoft.IU.Web.Info/Includes/menu/jquery-ui.min.js" type="text/javascript"></script>
+    
+    
+    
+    <!-- AdminLTE App -->
+    <script src="/CMCSoft.IU.Web.Info/Includes/menu/dist/js/app.min.js" type="text/javascript"></script>   
+<div class="skin-green-light sidebar-mini">
+<div id="Menu1_div_nav_menu" class="sidebar"><ul class='sidebar-menu'><li class='header'>DANH MỤC CHÍNH</li><li> <a><i class='fa fa-laptop'></i><span>Đăng ký học</span><i class='fa fa-angle-left pull-right'></i></a><ul class='treeview-menu'><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/CourseByFieldTree.aspx">Xem chương trình học</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.info/StudyRegister/StudyRegister.aspx">Đăng ký học</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/Reports/Form/StudentTimeTable.aspx">Xem kết quả ĐKH</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/StudyRegister/RegistrationHistory.aspx">Xem quá trình ĐKH</a></li></ul></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/Home.aspx"><span>Home</span></a></li><li> <a><i class='fa fa-laptop'></i><span>Quản lý mật khẩu</span><i class='fa fa-angle-left pull-right'></i></a><ul class='treeview-menu'><li class='treeview'> <a href="/CMCSoft.IU.Web.info/ChangePassWordStudent.aspx">Đổi mật khẩu</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/EmailRegistration.aspx">Đăng ký Email lấy lại mật khẩu</a></li></ul></li><li> <a><i class='fa fa-laptop'></i><span>Thông tin cá nhân (SV)</span><i class='fa fa-angle-left pull-right'></i></a><ul class='treeview-menu'><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/StudentService/StudentTuition.aspx">Xem lệ phí - học phí</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/StudentViewExamList.aspx">Xem lịch thi cá nhân</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.info/StudentMark.aspx">Tra cứu điểm</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/StudentService/PractiseMarkAndStudyWarning.aspx">Tra cứu điểm rèn luyện và xử lý học vụ</a></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/StudentProfileNew/HoSoSinhVien.aspx">Thông tin hồ sơ sinh viên</a></li></ul></li><li class='treeview'> <a href="/CMCSoft.IU.Web.Info/PaymentOnline/hocPhi.aspx"><span>Thanh toán Online</span></a></li></ul></div>
+</div>
+<div id="Menu1_div_nav" class="mymenu"></div>
+	<div class="clear"></div>
+<ul id="menusetting">
+	<li>
+	</li>
+	<li>
+	
+	</li>
+	<li>
+	
+	</li>
+		
+</ul></TD>
+					<TD height="100%" width="5"></TD>
+					<TD height="100%" vAlign="top"><BR>
+						<TABLE id="Table4" class="tableborder" border="0" cellSpacing="1" cellPadding="0" width="100%"
+							height="95%">
+							<TR>
+								<TD vAlign="top">
+									<TABLE id="Table1" border="0" cellSpacing="1" cellPadding="0" width="100%">
+										<TR>
+											<TD class="labelcontent" colSpan="2">Học kỳ :
+												<select name="drpSemester" id="drpSemester">
+	<option value="4aeee21881294e4597e8e77c4c4bed04">2_2020_2021</option>
+	<option selected="selected" value="2785c57c8f50480b91437980bb75f7ed">1_2020_2021</option>
+	<option value="6958f2ddc785427d96cc6259be027f7a">2_2019_2020</option>
+	<option value="e040d3df1f4b45c89a1fc1ebba2cb39c">1_2019_2020</option>
+	<option value="edbd12cb31074a0aadacfbcc108d9d24">2_2018_2019</option>
+	<option value="f85b945085ee4b8898a30165ca1833ff">1_2018_2019</option>
+	<option value="665543dbe0cb4f59880c386a95634762">2_2017_2018</option>
+	<option value="f5e86403ffb44689a948c9640d7bad5b">1_2017_2018</option>
+	<option value="852cf26eb5624de1aaff02c7467326b8">2_2016_2017</option>
+	<option value="9543b9fb32d34f10a6aaf15761919b7a">1_2016_2017</option>
+	<option value="4fae8a55966445178b9843254a6d4632">2_2015_2016</option>
+	<option value="3e31f5c97c624f219a710c215baefa9b">1_2015_2016</option>
+	<option value="6c34da62803243c5ab58ef70c55b3c39">2_2014_2015</option>
+	<option value="b89e9608effc4c238f742ed13eca40a5">1_2014_2015</option>
+	<option value="bb162a0662f74558ac1739c3ed7b27bc">2_2013_2014</option>
+	<option value="45c2ce36794241ebb58e507e5bc9636a">1_2013_2014</option>
+	<option value="f278a3cdf77a4ce3875e7ea535df9ace">2_2012_2013</option>
+	<option value="5224619a22964b4aa11b5346b3cc9e34">1_2012_2013</option>
+	<option value="c152060036a349e7a22dc0929b78de37">2_2011_2012</option>
+	<option value="3d6c4cab5a0e4936ae8b0b5a0b9a45cc">1_2011_2012</option>
+	<option value="3a43c1bf441b4128864312945f9d5b0a">2_2010_2011</option>
+	<option value="9202cb504cc648d2ba03a364b6d81694">1_2010_2011</option>
+	<option value="6e4a1f03415f46a8a0330f6032be166f">2_2009_2010</option>
+	<option value="1999e4b7f93e461d8ad4c0451bb95bf2">1_2009_2010</option>
+	<option value="be28a2c7682345669cce5fa216121765">2_2008_2009</option>
+	<option value="80bd0ae3b3224b83b5be13b74b89a9f2">1_2008_2009</option>
+	<option value="502e6d7337484fe8971d70064bb10b2b">2_2007_2008</option>
+	<option value="29984cdab55840a0941cf18edec83c00">1_2007_2008</option>
+
+</select>&nbsp;<SPAN class="labelcontent">Ðợt 
+													học :</SPAN>
+												<select name="drpTerm" id="drpTerm">
+	<option selected="selected" value="1">1</option>
+
+</select><input name="hidDiscountFactor" type="hidden" id="hidDiscountFactor" style="WIDTH: 32px; HEIGHT: 19px" size="1" /><input name="hidReduceTuitionType" type="hidden" id="hidReduceTuitionType" style="WIDTH: 32px; HEIGHT: 19px" size="1" /><input name="hidXetHeSoHocPhiTheoDoiTuong" type="hidden" id="hidXetHeSoHocPhiTheoDoiTuong" style="WIDTH: 32px; HEIGHT: 19px" size="1" value="L1" /><input name="hidTuitionFactorMode" type="hidden" id="hidTuitionFactorMode" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="3" /><input name="hidLoaiUuTienHeSoHocPhi" type="hidden" id="hidLoaiUuTienHeSoHocPhi" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="1" /><input name="hidSecondFieldId" type="hidden" id="hidSecondFieldId" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSecondAyId" type="hidden" id="hidSecondAyId" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSecondFacultyId" type="hidden" id="hidSecondFacultyId" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSecondAdminClassId" type="hidden" id="hidSecondAdminClassId" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSecondFieldLevel" type="hidden" id="hidSecondFieldLevel" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidXetHeSoHocPhiDoiTuongTheoNganh" type="hidden" id="hidXetHeSoHocPhiDoiTuongTheoNganh" style="WIDTH: 32px; HEIGHT: 19px" size="1" value="N1" /><input name="hidUnitPriceDetail" type="hidden" id="hidUnitPriceDetail" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="1" /><input name="hidFacultyId" type="hidden" id="hidFacultyId" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="9444430FF3A24667867329FFEE5BD1E9" /><input name="hidFieldLevel" type="hidden" id="hidFieldLevel" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="FI" /><input name="hidPrintLocationByCode" type="hidden" id="hidPrintLocationByCode" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="0" /><input name="hidUnitPriceKP" type="hidden" id="hidUnitPriceKP" style="WIDTH: 28px; HEIGHT: 19px" size="1" /></TD>
+										</TR>
+										<TR>
+											<TD style="WIDTH: 118px" class="labelcontent">Kiểu thời&nbsp;khóa biểu&nbsp;:</TD>
+											<TD><select name="drpType" id="drpType">
+	<option selected="selected" value="A">Hiển thị theo học phần</option>
+	<option value="B">Hiển thị theo ng&#224;y học</option>
+	<option value="C">Hiển thị theo học phần,Thời kh&#243;a biểu</option>
+	<option value="D">Phiếu x&#225;c nhận đăng k&#253;</option>
+	<option value="E">Hiển thị theo thứ học</option>
+	<option value="F">Hiển thị theo thứ học chiều nganh</option>
+	<option value="G">Hiển thị theo học phần,Thời kh&#243;a biểu-PDK</option>
+	<option value="H">Thời kh&#243;a biểu tuần</option>
+	<option value="I">Thời kh&#243;a biểu thứ theo chiều dọc</option>
+	<option value="J">Thời kh&#243;a biểu tuần &amp; thứ</option>
+
+</select><input type="submit" name="btnView" value="Xuất file Excel" id="btnView" /><input name="hidStudentId" type="hidden" id="hidStudentId" style="WIDTH: 24px; HEIGHT: 19px" size="1" value="FDEF2F0ECF534E19AF8C33D9B3D248D6" /><input name="hidAcademicYearId" type="hidden" id="hidAcademicYearId" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="17EFE15795BD4162AB85FA22A1DB9CD6" /><input name="hidFieldId" type="hidden" id="hidFieldId" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="14C70A3ABDEE4AAEB11C4691621BFB09" /><input name="hidSemester" type="hidden" id="hidSemester" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="2020_2021_1" /><input name="hidTerm" type="hidden" id="hidTerm" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="1" /><input name="hidShowTeacher" type="hidden" id="hidShowTeacher" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="1" /><input name="hidUnitPrice" type="hidden" id="hidUnitPrice" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidTuitionCalculating" type="hidden" id="hidTuitionCalculating" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="0" /><input name="hidTrainingSystemId" type="hidden" id="hidTrainingSystemId" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="dda1424e45dd4676ad5fb25d33a31b43" /><input name="hidAdminClassId" type="hidden" id="hidAdminClassId" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="7B113966B0C1454BB86E1B1EC1EF64FA" /><input name="hidTuitionStudentType" type="hidden" id="hidTuitionStudentType" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="1" /><input name="hidStudentTypeId" type="hidden" id="hidStudentTypeId" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidUntuitionStudentTypeId" type="hidden" id="hidUntuitionStudentTypeId" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidUniversityCode" type="hidden" id="hidUniversityCode" style="WIDTH: 28px; HEIGHT: 19px" size="1" value="HVMM" /></TD>
+										</TR>
+									</TABLE>
+									<TABLE id="Table11" border="0" cellSpacing="0" cellPadding="0" width="100%">
+										<TR>
+											<TD class="listtitle" height="30" align="center"><span id="lblStudent">CT030237 - Nguyễn Văn Minh - Ngành Công nghệ thông tin</span>
+												
+												
+												
+												</TD>
+										</TR>
+										<TR>
+											<TD class="listtitle" height="25" align="center">Kết qủa đăng ký học
+												<span id="lblSemester">Học kỳ 1 Năm học 2020_2021 Đợt học 1</span><input name="hidTuanBatDauHK2" type="hidden" id="hidTuanBatDauHK2" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSoTietSang" type="hidden" id="hidSoTietSang" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSoTietChieu" type="hidden" id="hidSoTietChieu" style="WIDTH: 28px; HEIGHT: 19px" size="1" /><input name="hidSoTietToi" type="hidden" id="hidSoTietToi" style="WIDTH: 28px; HEIGHT: 19px" size="1" /></TD>
+										</TR>
+									</TABLE>
+									<TABLE id="Table2" border="0" cellSpacing="1" cellPadding="0" width="100%" height="90%">
+										<TR>
+											<TD class="tableborder">
+												<DIV style="OVERFLOW: auto; WIDTH: 100%; HEIGHT: 87%"><table cellspacing="0" cellpadding="0" rules="all" bordercolor="RosyBrown" id="gridRegistered" width="100%">
+	<tr class="DataGridFixedHeader" align="center">
+		<td class="cssListHeader" align="center" height="20" width="4%"><font color="White"><b>STT</b></font></td><td class="cssListHeader" align="center" height="20" width="25%"><font color="White"><b>
+																	<label><b>Lớp học phần</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="9%"><font color="White"><b>
+																	<label><b>Học phần</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20"><font color="White"><b>
+																	<label><b>Thời gian</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="10%"><font color="White"><b>
+																	<label><b>Ðịa điểm</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="10%"><font color="White"><b>
+																	<label><b>Giảng viên</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="4%"><font color="White"><b>
+																	<label><b>Sĩ số</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="4%"><font color="White"><b>
+																	<label><b>Số ÐK</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="4%"><font color="White"><b>
+																	<label><b>Số TC</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="8%"><font color="White"><b>
+																	<label><b>
+																			
+																		</b></label>
+																</b></font></td><td class="cssListHeader" align="center" height="20" width="7%"><font color="White"><b>
+																	<label><b>Ghi chú</b></label>
+																</b></font></td>
+	</tr><tr class="cssListItem">
+		<td align="center">1</td><td><b>
+																	Cấu trúc dữ liệu và giải thuật-1-20 (A15C308)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_0">ATCTKM1</span>
+																</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 07/09/2020 đến 13/09/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 14/09/2020 đến 20/09/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (LT)</b><br>Từ 21/09/2020 đến 18/10/2020: <b>(4)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>Từ 19/10/2020 đến 25/10/2020: <b>(5)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	53
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">2</td><td><b>
+																	Công nghệ phần mềm-1-20 (C303)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_1">CTCTKM25</span>
+																</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>Từ 23/11/2020 đến 29/11/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>Từ 30/11/2020 đến 27/12/2020: <b>(4)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	60
+																</td><td align="center">
+																	53
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListItem">
+		<td align="center">3</td><td><b>
+																	Cơ sở lý thuyết truyền tin-1-20 (A15C3D208)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_2">ATDVDV1</span>
+																</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (LT)</b><br>Từ 07/09/2020 đến 13/09/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (LT)</b><br>Từ 14/09/2020 đến 20/09/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 21/09/2020 đến 27/09/2020: <b>(4)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 28/09/2020 đến 04/10/2020: <b>(5)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 05/10/2020 đến 11/10/2020: <b>(6)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 12/10/2020 đến 18/10/2020: <b>(7)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 19/10/2020 đến 25/10/2020: <b>(8)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	Dương Tuấn Đạt
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	45
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">4</td><td><b>
+																	Giáo dục thể chất 5-1-20 (A15C3D203-võ thuật)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_3">ATQGTC5</span>
+																</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 1,2,3 (LT)</b><br>Từ 07/09/2020 đến 18/10/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 1,2,3 (LT)</b><br>Từ 19/10/2020 đến 25/10/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 1,2,3 (LT)</b><br>Từ 26/10/2020 đến 08/11/2020: <b>(4)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 1,2,3 (LT)</b><br>
+																	
+																</td><td>
+																	 San bai San
+																</td><td>
+																	Đỗ Văn Hiếu
+																</td><td align="center">
+																	60
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	1
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListItem">
+		<td align="center">5</td><td><b>
+																	Hệ quản trị cơ sở dữ liệu-1-20 (A15C308)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_4">ATCTKM3</span>
+																</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (LT)</b><br>Từ 07/09/2020 đến 04/10/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">6</td><td><b>
+																	Hệ quản trị cơ sở dữ liệu-1-20 (A15C308.2)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_5">ATCTKM3</span>
+																</td><td>
+																	Từ 21/09/2020 đến 18/10/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (TH)</b><br>Từ 19/10/2020 đến 25/10/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (TH)</b><br>
+																	
+																</td><td>
+																	<b>(1)</b><br> 206_TA3(THCNTT) TA4<br><b>(2)</b><br> 203_TA4(THCNTT) TA4
+																</td><td>
+																	
+																</td><td align="center">
+																	35
+																</td><td align="center">
+																	30
+																</td><td align="center">
+																	
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListItem">
+		<td align="center">7</td><td><b>
+																	Kỹ thuật vi xử lý-1-20 (A15C308)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_6">ATDVKV2</span>
+																</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (LT)</b><br>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (LT)</b><br>Từ 23/11/2020 đến 13/12/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	41
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">8</td><td><b>
+																	Kỹ thuật vi xử lý-1-20 (A15C308.1)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_7">ATDVKV2</span>
+																</td><td>
+																	Từ 14/12/2020 đến 27/12/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (TH)</b><br>Từ 28/12/2020 đến 03/01/2021: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (TH)</b><br>
+																	
+																</td><td>
+																	 304_TA4(THĐTVT) TA4
+																</td><td>
+																	
+																</td><td align="center">
+																	35
+																</td><td align="center">
+																	38
+																</td><td align="center">
+																	
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListItem">
+		<td align="center">9</td><td><b>
+																	Lập trình hướng đối tượng-1-20 (A15C3D208)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_8">ATCTKM5</span>
+																</td><td>
+																	Từ 31/08/2020 đến 06/09/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (LT)</b><br>Từ 07/09/2020 đến 04/10/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	65
+																</td><td align="center">
+																	66
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">10</td><td><b>
+																	Lập trình hướng đối tượng-1-20 (A15C3D208.2)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_9">ATCTKM5</span>
+																</td><td>
+																	Từ 05/10/2020 đến 18/10/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (TH)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (TH)</b><br>Từ 19/10/2020 đến 25/10/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 13,14,15,16 (TH)</b><br>
+																	
+																</td><td>
+																	<b>(1)</b><br> 204_TA4(THCNTT) TA4<br><b>(2)</b><br> 206_TA3(THCNTT) TA4
+																</td><td>
+																	
+																</td><td align="center">
+																	35
+																</td><td align="center">
+																	32
+																</td><td align="center">
+																	
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListItem">
+		<td align="center">11</td><td><b>
+																	Lý thuyết độ phức tạp tính toán-1-20 (C301)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_10">CTCBTT8</span>
+																</td><td>
+																	Từ 02/11/2020 đến 08/11/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 1,2,3 (LT)</b><br>Từ 09/11/2020 đến 15/11/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 1,2,3 (LT)</b><br>Từ 16/11/2020 đến 22/11/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 1,2,3 (LT)</b><br>Từ 30/11/2020 đến 06/12/2020: <b>(4)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 4,5,6 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 1,2,3 (LT)</b><br>Từ 07/12/2020 đến 27/12/2020: <b>(5)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 4,5,6 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 1,2,3 (LT)</b><br>Từ 28/12/2020 đến 03/01/2021: <b>(6)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 4,5,6 (LT)</b><br>
+																	
+																</td><td>
+																	<b>(1)</b><br> 102_TA2 TA2<br><b>(2)</b><br> 204-TA2 TA2<br><b>(3)</b><br> 103_TA2 TA1<br><b>(4,5,6)</b><br> 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	60
+																</td><td align="center">
+																	63
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">12</td><td><b>
+																	Phát triển phần mềm ứng dụng-1-20 (C301)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_11">CTCTKM12</span>
+																</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 4,5,6 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 4,5,6 (LT)</b><br>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 4,5,6 (LT)</b><br>Từ 23/11/2020 đến 29/11/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 4,5,6 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 4,5,6 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	60
+																</td><td align="center">
+																	66
+																</td><td align="center">
+																	2
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListItem">
+		<td align="center">13</td><td><b>
+																	Phát triển phần mềm ứng dụng-1-20 (C301.1)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_12">CTCTKM12</span>
+																</td><td>
+																	Từ 30/11/2020 đến 20/12/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 2 tiết 4,5,6 (TH)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 4,5,6 (TH)</b><br>Từ 21/12/2020 đến 27/12/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 1,2,3 (TH)</b><br>
+																	
+																</td><td>
+																	<b>(1)</b><br> 201_TA4(THCNTT) TA4<br><b>(2)</b><br> 202_TA4(THCNTT) TA4
+																</td><td>
+																	
+																</td><td align="center">
+																	30
+																</td><td align="center">
+																	35
+																</td><td align="center">
+																	
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr class="cssListAlternativeItem">
+		<td align="center">14</td><td><b>
+																	Tiếng Anh 3-1-20 (A15C3D208)
+																</b></td><td>
+																	<span id="gridRegistered_lblCourseCode_13">ATCBNN6</span>
+																</td><td>
+																	Từ 02/11/2020 đến 15/11/2020: <b>(1)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (LT)</b><br>Từ 16/11/2020 đến 22/11/2020: <b>(2)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 3 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>Từ 23/11/2020 đến 27/12/2020: <b>(3)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 6 tiết 13,14,15,16 (LT)</b><br>Từ 28/12/2020 đến 03/01/2021: <b>(4)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 4 tiết 13,14,15,16 (LT)</b><br>&nbsp;&nbsp;&nbsp;<b>Thứ 5 tiết 13,14,15,16 (LT)</b><br>
+																	
+																</td><td>
+																	 203_TA2 TA2
+																</td><td>
+																	
+																</td><td align="center">
+																	45
+																</td><td align="center">
+																	49
+																</td><td align="center">
+																	4
+																</td><td align="right">
+																	
+																</td><td align="right">
+																	
+																</td>
+	</tr><tr align="center">
+		<td>&nbsp;</td><td align="center">
+																	<b>Tổng</b>
+																</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td align="center"><b>21</b></td><td align="right"><b>0</b></td><td align="right"><b>&nbsp;</b></td>
+	</tr>
+</table></DIV>
+											</TD>
+										</TR>
+										<TR>
+											<TD bgColor="#003399" height="3"></TD>
+										</TR>
+										<tr>
+											<td height="1"><span id="lblTermTuition" class="labelcontent"></span></td>
+										</tr>
+									</TABLE>
+								</TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+			</TABLE>
+			<span id="lblErrorInfo"><font color="Red"></font></span>
+<script language="javascript">
+function addfav()
+   {
+   if (document.all)
+      {
+      window.external.AddFavorite
+      ("http://www.webdevelopersnotes.com","WebDevelopersNotes")
+      }
+   }
+
+</script>
+<div style="float:left;margin-top:60px;width:100%">
+<div id="footer_1" align="left">
+	<h4 id="hotline">Ðường dây nóng<br>
+		<span id="PageFooter1_lblHotline"></span>
+	</h4>
+	<h4 style="FONT-SIZE:12px;right:11px;POSITION:absolute;TOP:20px">
+		<a id="PageFooter1_GoHome_ibnGoHome" href="javascript:__doPostBack(&#39;PageFooter1$GoHome$ibnGoHome&#39;,&#39;&#39;)"><font color="White">Trang chủ</font></a>
+
+		|
+		<a id="PageFooter1_SignOut_ibnLogout" href="javascript:__doPostBack(&#39;PageFooter1$SignOut$ibnLogout&#39;,&#39;&#39;)"><font color="White">Thoát</font></a>
+
+		| <A style="COLOR:white" href="./support/default.aspx" target="_blank">Hỏi đáp</A>
+		| <A style="COLOR:white" href="/CMCSoft.IU.Web.Info/WebHelp/NewProject1.htm" target="_blank">Trợ giúp</A>
+	</h4>
+</div>
+<div id="footer_2"></div>
+<table align="center" bgcolor="white" style="PADDING-LEFT:5px;WIDTH:100%">
+	<tr>
+		<TD align="right" width="533">
+			<span id="PageFooter1_lblEmail"><a href="#" onclick="javascript:window.print()"><div style="FLOAT:left">	<img src="/CMCSoft.IU.Web.Info/images/print.png" border="0"></div><div style="FLOAT:left;PADDING-TOP:6px">In trang này</div></a><a href="mailto:?subject=He thong thong tin IU&amp;body=http://qldt.actvn.edu.vn/CMCSoft.IU.Web.Info/Reports/Form/StudentTimeTable.aspx"><div style="FLOAT:left"><img src="/CMCSoft.IU.Web.Info/images/sendemail.png"  border="0"></div><div style="FLOAT:left;PADDING-TOP:6px">Gửi email trang này</div></a><a href="#" onclick="javascript:addfav()"><div style="FLOAT:left"><img src="/CMCSoft.IU.Web.Info/images/addtofavorites.png"  border="0"></div><div style="FLOAT:left;PADDING-TOP:6px">Thêm vào ưa thích</div></a></span>
+		</TD>
+		<td width="604">
+			<div style="FONT-WEIGHT:bold;FONT-SIZE:12px" align="left">
+				<span id="PageFooter1_lblCopyrightNotice"></span>
+				<span id="PageFooter1_lblLastUpdate"></span>
+				<span id="PageFooter1_lblVersion"></span>
+			</div>
+			
+		</td>
+		
+		<td align="right" width="410">
+			<p><a id="PageFooter1_hpUserOnlineList" href="../../UserOnlineList.aspx" target="_blank">Số người đang Online:</a>				
+				13
+			</p>
+			<p>Lượt truy cập:
+				2318
+			</p>
+		</td>
+	</tr>
+</table>
+
+</div>
+</form>
+	</body>
+</HTML>
